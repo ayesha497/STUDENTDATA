@@ -1,12 +1,13 @@
-🎓 Student Management System (PHP & MySQL)
+##🎓 Student Management System (PHP & MySQL)
 
 A simple Student Management System built using PHP, MySQL, HTML, CSS, and JavaScript.
+
 This project performs complete CRUD Operations (Create, Read, Update, Delete) with a modern dark-themed user interface.
 
 ---
 
 
-###🚀 Features
+##🚀 Features
 
 ✅ Add Student Record
 
@@ -25,7 +26,7 @@ This project performs complete CRUD Operations (Create, Read, Update, Delete) wi
 ---
 
 
-###🛠️ Technologies Used
+##🛠️ Technologies Used
 Frontend
 
 HTML5
@@ -45,22 +46,30 @@ MySQL
 ---
 
 
-###📂 Project Structure
+##📂 Project Structure
 student-management/
 │
 ├── db.php        # Database connection
+
 ├── insert.php    # Insert student data
+
 ├── update.php    # Update student record
+
 ├── delete.php    # Delete student record
+
 ├── table.php     # Display students table
+
 ├── index.html    # Add student form
+
 ├── style.css     # Form styling
+
 └── README.md
 
 ---
 
 
-###📸 System Functionalities
+##📸 System Functionalities
+
 ➕ Insert
 
 Add new student details using form.
@@ -85,10 +94,12 @@ https://drive.google.com/file/d/1jUdoiMdtM7SwybtauNNmiouESlSWFL5v/view?usp=drive
 
 ---
 
-###👨‍💻 Author
+##👨‍💻 Author
 
-Name: Your Name Here
+Name: Ayesha Tariq
+
 Project: Student Management System
+
 Technology Stack: PHP & MySQL
 
 ---
