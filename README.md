@@ -7,7 +7,7 @@ This project performs complete CRUD Operations (Create, Read, Update, Delete) wi
 ---
 
 
-##🚀 Features
+**🚀 Features**
 
 ✅ Add Student Record
 
@@ -26,7 +26,7 @@ This project performs complete CRUD Operations (Create, Read, Update, Delete) wi
 ---
 
 
-##🛠️ Technologies Used
+🛠️ Technologies Used
 Frontend
 
 HTML5
@@ -46,7 +46,7 @@ MySQL
 ---
 
 
-##📂 Project Structure
+📂 Project Structure
 student-management/
 │
 ├── db.php        # Database connection
@@ -68,7 +68,7 @@ student-management/
 ---
 
 
-##📸 System Functionalities
+📸 System Functionalities
 
 ➕ Insert
 
@@ -94,7 +94,7 @@ https://drive.google.com/file/d/1jUdoiMdtM7SwybtauNNmiouESlSWFL5v/view?usp=drive
 
 ---
 
-##👨‍💻 Author
+👨‍💻 Author
 
 Name: Ayesha Tariq
 
