@@ -6,11 +6,17 @@ This project performs complete CRUD Operations (Create, Read, Update, Delete) wi
 🚀 Features
 
 ✅ Add Student Record
+
 ✅ View Students in Table Format
+
 ✅ Update Student Details
+
 ✅ Delete Student Record with Confirmation Alert
+
 ✅ Success/Error Messages
+
 ✅ Responsive Dark UI Design
+
 ✅ Fully Functional CRUD System
 
 🛠️ Technologies Used
@@ -18,7 +24,7 @@ Frontend
 
 HTML5
 
-CSS3 (Dark Theme)
+CSS3 
 
 JavaScript
 
