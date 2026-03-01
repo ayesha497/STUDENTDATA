@@ -1,0 +1,141 @@
+/* Reset and basic settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Switched to a softer, more elegant font stack */
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+/* Body */
+body {
+    /* Soft, airy blue gradient */
+    background: linear-gradient(135deg, #e0f2ff, #b3d9ff);
+    color: #4a5568;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Container for form */
+.container {
+    width: 400px;
+    /* White-ish glassmorphism effect */
+    background: rgba(255, 255, 255, 0.9);
+    padding: 35px;
+    border-radius: 25px; /* Softer, rounder corners */
+    box-shadow: 0 10px 25px rgba(100, 149, 237, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 25px;
+    color: #5d9cec; /* Soft cornflower blue */
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: lowercase; /* Gives it a trendy, "aesthetic" look */
+}
+
+h2::after {
+    content: ' ✨'; /* Subtle touch of sparkle */
+}
+
+/* Form inputs */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    padding: 12px 15px;
+    margin-bottom: 18px;
+    border: 2px solid #e1f0ff;
+    border-radius: 12px;
+    background: #fdfdff;
+    color: #4a5568;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input::placeholder {
+    color: #a0aec0;
+}
+
+input:focus {
+    border-color: #a2d2ff;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(162, 210, 255, 0.5);
+}
+
+/* Buttons */
+button {
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    /* Soft blue-to-periwinkle gradient */
+    background: linear-gradient(to right, #89cff0, #a2d2ff);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.4s;
+    box-shadow: 0 4px 15px rgba(162, 210, 255, 0.4);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(162, 210, 255, 0.6);
+    background: linear-gradient(to right, #a2d2ff, #89cff0);
+}
+
+/* Links */
+a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+    color: #7fb3d5;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #5d9cec;
+    text-decoration: underline;
+}
+
+/* Alert messages */
+.alert {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.alert-success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-error {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .container {
+        width: 92%;
+        padding: 25px;
+    }
+}
