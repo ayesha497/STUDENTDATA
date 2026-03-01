@@ -3,7 +3,10 @@
 A simple Student Management System built using PHP, MySQL, HTML, CSS, and JavaScript.
 This project performs complete CRUD Operations (Create, Read, Update, Delete) with a modern dark-themed user interface.
 
-🚀 Features
+---
+
+
+###🚀 Features
 
 ✅ Add Student Record
 
@@ -19,7 +22,10 @@ This project performs complete CRUD Operations (Create, Read, Update, Delete) wi
 
 ✅ Fully Functional CRUD System
 
-🛠️ Technologies Used
+---
+
+
+###🛠️ Technologies Used
 Frontend
 
 HTML5
@@ -36,7 +42,10 @@ Database
 
 MySQL
 
-📂 Project Structure
+---
+
+
+###📂 Project Structure
 student-management/
 │
 ├── db.php        # Database connection
@@ -47,7 +56,11 @@ student-management/
 ├── index.html    # Add student form
 ├── style.css     # Form styling
 └── README.md
-📸 System Functionalities
+
+---
+
+
+###📸 System Functionalities
 ➕ Insert
 
 Add new student details using form.
@@ -70,8 +83,14 @@ Success message displayed after deletion.
 
 https://drive.google.com/file/d/1jUdoiMdtM7SwybtauNNmiouESlSWFL5v/view?usp=drivesdk
 
-👨‍💻 Author
+---
+
+###👨‍💻 Author
 
 Name: Your Name Here
 Project: Student Management System
 Technology Stack: PHP & MySQL
+
+---
+
+
